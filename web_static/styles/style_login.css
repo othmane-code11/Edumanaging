@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    width: 250px;
+    /* margin-right: 10px; */
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    cursor: pointer;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #f44366;
+    display:block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+    font-family: sans-serif;
+}
+
+.btn {
+    border-radius: 15px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+}
+
+.sub-header-login {
+    min-height: 100vh;
+
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7))
+    ,url(imagess/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.sub-header-signup {
+    min-height: 125vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7))
+    ,url(imagess/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background: transparent;
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+.login-box {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    /* background-color: white; */
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+    color: azure;
+}
+
+h4 {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+
+
+form input {
+    width: 100%;
+    margin-top: 25px;
+    padding: 7px;
+    border: none;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    outline: none;
+    background: #f0f0f0;
+}
+input[type="button"] {
+    width: 315px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    height: 35px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+input[type="button"]:hover {
+    border: 1px solid #f44366;
+    background-color: #f44366;
+    transition: 0.5s;
+}
+.para-2 p {
+    text-align: center;
+    font-size: 15px;
+}
+#ana {
+    color: aliceblue;
+}
+.para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -40px;
+    margin-left: -10px;
+}
+
+#para-2-sign {
+    margin-top: -190px;
+}
+.para-2 a {
+    color: #49c1a2;
+}
+.para-2 a:hover {
+    color: #f44366;
+}
+
+
+
+
